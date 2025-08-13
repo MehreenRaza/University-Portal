@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="sub-header">
+        <nav>
+            <a href="#"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+                <ul>
+                   <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+           <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+        </nav>
+     <h1>Our Certificate & Online Programs For 2025</h1>
+    </div>
+
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right="0"
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="eduford_img/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2025</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum fugit, corporis a velit laboriosam consequuntur minus eius minima eligendi culpa excepturi magnam inventore suscipit. Consectetur, accusamus? Ipsa, reprehenderit illum?
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nihil, blanditiis optio tempore eum quo est natus voluptas sed et architecto perferendis, dolorem velit. Esse expedita architecto qui eaque vel! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis vel modi dicta consequatur temporibus debitis nobis distinctio inventore alias impedit mollitia sed iusto labore, tempora, reprehenderit similique aut beatae ipsa!
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, sed neque! Nisi molestiae optio quaerat, labore dicta, non quibusdam hic laborum aut itaque dolores odio veritatis! Quam similique magnam esse.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus eum itaque similique quasi cum laborum atque saepe. 
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus eum itaque similique quasi cum laborum atque saepe, adipisci possimus quae doloribus sed consectetur nisi qui illum explicabo nam esse!
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus eum itaque similique quasi cum laborum atque saepe, adipisci possimus quae doloribus sed consectetur nisi qui illum explicabo nam esse!
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus eum itaque similique quasi cum laborum atque saepe, adipisci possimus quae doloribus sed consectetur nisi qui illum explicabo nam esse!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus eum itaque similique quasi cum laborum atque saepe, adipisci possimus quae doloribus sed consectetur nisi qui illum explicabo nam esse!
+                </p>
+                 <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                    
+                </div>
+                
+            </div> 
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics </span>
+                    <span>28</span>
+                </div>
+
+                <div>
+                    <span>Data Science </span>
+                    <span>18</span>
+                </div>
+
+                <div>
+                    <span>Machine Learning </span>
+                    <span>12</span>
+                </div>
+
+                <div>
+                    <span>Artificial Intelligence </span>
+                    <span>25</span>
+                </div>
+
+                <div>
+                    <span>AutoCAD </span>
+                    <span>9</span>
+                </div>
+
+                <div>
+                    <span>Commerce </span>
+                    <span>10</span>
+                </div>
+
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div> 
+            </div>
+        </div>
+
+    </section>
+
+
+    
+    <section class="footer">
+     <h4>About Us</h4>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quae odio quis voluptatum ducimus  <br>libero mollitia repellat voluptatem officiis <br>atque commodi hic </p>
+     <div class="icons">
+     <i class="fa-brands fa-instagram"></i>
+     <i class="fa-brands fa-facebook"></i>
+     <i class="fa-brands fa-linkedin"></i>
+     <i class="fa-brands fa-twitter"></i>
+     </div>
+     <p>Made with <i class="fa-regular fa-heart"></i> By Mehreen Raza </p>
+    
+    </section>
+</body>
+</html>
