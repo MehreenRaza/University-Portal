@@ -241,13 +241,13 @@ bottom: 49%;
 opacity: 1;
 }
 
-@media(max-width:700px){
+/* @media(max-width:700px){
 .campus {
         width: 80%;
-        padding: 50px 15px; /* smaller padding for mobile */
+        padding: 50px 15px; smaller padding for mobile 
         overflow-x: hidden;
     }
-}
+} */
 
 /* facilities */
 
@@ -276,13 +276,13 @@ opacity: 1;
     margin-bottom: 15px;
     text-align: left;
 }
-@media(max-width:700px){
+/* @media(max-width:700px){
 .facilities {
         width: 80%;
-        padding: 50px 15px; /* smaller padding for mobile */
+        padding: 50px 15px; smaller padding for mobile 
         overflow-x: hidden;
     }
-}
+} */
 
 
 /* testimonials */
@@ -332,13 +332,14 @@ opacity: 1;
     margin-right:15px ;  
 } 
 }
-@media(max-width:700px){
+/* @media(max-width:700px){
 .testimonials {
         width: 80%;
-        padding: 50px 15px; /* smaller padding for mobile */
+        padding: 50px 15px; smaller padding for mobile
         overflow-x: hidden;
     }
-}
+}  */
+
 /* cta */
 .cta{
     width: 80%;
@@ -390,7 +391,6 @@ opacity: 1;
 @media(max-width:700px){
 .footer {
         width: 80%;
-        padding: 50px 15px; /* smaller padding for mobile */
         overflow-x: hidden;
         margin: auto;
     }
