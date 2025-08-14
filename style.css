@@ -266,7 +266,7 @@ opacity: 1;
     border-radius: 10px;
 }
 .facilities-col p{
-    padding: 0;
+    padding: 5px 0px;
 }
 .facilities-col h3{
     margin-top: 16px;
@@ -307,7 +307,7 @@ opacity: 1;
     border-radius:50% ;
 }
 .testimonials-col p{
-    padding: 0;
+    padding: 5px 0px;
 }
 .testimonials-col h3{
     margin-top: 15px;
