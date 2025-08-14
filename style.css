@@ -3,7 +3,6 @@
     padding: 0px;
     font-family:Arial, Helvetica, sans-serif;
 
-
    
 }
 
@@ -133,7 +132,6 @@ nav .fa{
    margin: auto;
    text-align: center;
    padding: 100px;
-   
 }
 
 .courses h1{
@@ -179,14 +177,13 @@ nav .fa{
 @media(max-width:700px){
     .row{
         flex-direction: column;
-    }
-    .courses {
+      }
+    .courses{
         width: 80%;
-        padding: 50px 15px; /* smaller padding for mobile */
         overflow-x: hidden;
-    }
-}
-
+        padding: 50px 15px; /* smaller padding for mobile */
+        
+    }}
 
 /* campus */
 
@@ -201,7 +198,7 @@ padding: 50px;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
-
+    overflow: hidden;
 
 }
 .campus-col img{
@@ -241,13 +238,13 @@ bottom: 49%;
 opacity: 1;
 }
 
-/* @media(max-width:700px){
-.campus {
+@media(max-width:700px){
+    .campus{
         width: 80%;
-        padding: 50px 15px; smaller padding for mobile 
         overflow-x: hidden;
-    }
-} */
+        padding: 50px 15px; /* smaller padding for mobile */
+        
+    }}
 
 /* facilities */
 
@@ -276,14 +273,13 @@ opacity: 1;
     margin-bottom: 15px;
     text-align: left;
 }
-/* @media(max-width:700px){
-.facilities {
+@media(max-width:700px){
+    .facilities{
         width: 80%;
-        padding: 50px 15px; smaller padding for mobile 
         overflow-x: hidden;
-    }
-} */
-
+        padding: 50px 15px; /* smaller padding for mobile */
+        
+    }}
 
 /* testimonials */
 
@@ -326,20 +322,18 @@ opacity: 1;
 
 
 @media(max-width:700px){
+
+   .testimonials{
+        width: 80%;
+        overflow-x: hidden;
+        padding: 50px 15px; /* smaller padding for mobile */
+    }
    .testimonials-col img{
    
     margin-left: 0px;
     margin-right:15px ;  
 } 
 }
-/* @media(max-width:700px){
-.testimonials {
-        width: 80%;
-        padding: 50px 15px; smaller padding for mobile
-        overflow-x: hidden;
-    }
-}  */
-
 /* cta */
 .cta{
     width: 80%;
@@ -363,13 +357,13 @@ opacity: 1;
         font-size: 24px;
     }
 }
-    
 
 /* footer  */
 .footer{
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    margin: auto;
 }
 
 .footer h4{
@@ -387,21 +381,20 @@ opacity: 1;
 .fa-heart{
     color: #f44336;
 }
-
 @media(max-width:700px){
-.footer {
+
+   .footer{
         width: 80%;
         overflow-x: hidden;
-        margin: auto;
+        padding: 50px 15px; /* smaller padding for mobile */
     }
 }
-
 
 /* about us page */
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url("eduford_img/about.jpg");
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(eduford_img/about.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -433,6 +426,7 @@ opacity: 1;
 }
 .about-col p{
     padding: 15px 0 25px;
+    text-align: justify;
   
 }
 .red-btn{
